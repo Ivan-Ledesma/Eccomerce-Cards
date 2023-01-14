@@ -1,0 +1,23 @@
+.cartWidget{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cartWidget >li{
+    list-style: none;
+}
+.cartWidget >p{
+    font-size: 25px;
+}
+.cartWidget > li > button{
+    background: none;
+    border: none;
+}
+.cartWidget > li > button:hover{
+    cursor: pointer;
+}
+
+.fas{
+    font-size: 25px;
+    color: white;
+}

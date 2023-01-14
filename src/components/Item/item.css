@@ -1,0 +1,69 @@
+.card{
+    width: 450px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+
+}
+.cardMonstruo{
+    background-color: #C49F51;
+}
+.cardMagia{
+    background-color: #028269;
+}
+.cardTrampa{
+    background-color: #971479;
+}
+
+.card > .card-content-box{
+    border: 1px solid #444;
+    padding: 8px;
+}
+.card > .card-content-box > .card-name{
+    padding: 10px;
+    border: 2px solid #444;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card > .card-content-box > .card-img{
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+    border: 5px solid gray;
+}
+
+.card > .card-content-box > .card-info{
+    border: 1px solid black;
+    background-color: #EBDDB6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 130px;
+}
+
+.card-info > .card-info-stats{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.card-button{
+    text-decoration: none;
+    color: #343434;
+    padding: 8px 12px;
+    background-color: #Fff;
+    margin-top: 8px;
+    border: 1px solid black;
+}
+.card-button:hover{
+    border: 1px solid #fff;
+    background-color: #343434;
+    color: #fff;
+}
